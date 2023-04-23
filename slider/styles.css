@@ -1,0 +1,44 @@
+* {
+    font-family: Arial;
+    font-weight: 400;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.header {
+    text-shadow: 3px 3px 3px #bab8c9
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 380px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 20px 25px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    border: 3px solid grey;
+}
+
+img {
+    height: 300px;
+    width: 375px;
+    object-fit: cover;
+    border-radius: 5px;
+}
